@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini Q&A Extension",
+    "version": "1.0",
+    "description": "Ekstensi untuk tanya jawab menggunakan Gemini.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
